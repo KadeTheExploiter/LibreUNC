@@ -267,27 +267,6 @@ print(gethiddenproperty(fire, "size_xml")) --> 15, true (hidden)
 
 ---
 
-## setrbxclipboard
-
-```lua
-function setrbxclipboard(data: string): boolean
-```
-
-Sets the Studio client's clipboard to the given `rbxm` or `rbxmx` model data. This allows data from the game to be copied into a Studio client.
-
-### Parameters
-
- * `data` - The model data to copy to the clipboard.
-
-### Example
-
-```lua
-local data = readfile("model.rbxm")
-setrbxclipboard(data) -- Can be pasted into Studio
-```
-
----
-
 ## setscriptable
 
 `🪲 Compatibility`
