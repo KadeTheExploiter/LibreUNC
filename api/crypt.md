@@ -1,8 +1,6 @@
-# Crypt
+# Encoding
 
-The **crypt** library provides methods for the encryption and decryption of string data.
-
-Behavior and examples documented on this page are based on Script-Ware.
+The **Encoding** library provides methods for the modification of string data.
 
 ---
 
@@ -64,4 +62,49 @@ local raw = crypt.base64decode(base64)
 
 print(base64) --> SGVsbG8sIFdvcmxkIQ==
 print(raw) --> Hello, World!
+```
+
+---
+
+## lz4compress
+
+```lua
+function lz4compress(data: string): string
+```
+
+Compresses `data` using LZ4 compression.
+
+### Parameters
+
+ * `data` - The uncompressed data.
+
+### Example
+
+```lua
+local text = "Hello, world! Hello, world! Goodbye, world!"
+print(#text) --> 43
+print(#lz4compress(text)) --> 34
+```
+
+---
+
+## lz4decompress
+
+```lua
+function lz4decompress(data: string, size: number): string
+```
+
+Decompresses `data` using LZ4 compression, with the decompressed size specified by `size`.
+
+### Parameters
+
+ * `data` - The compressed data.
+ * `size` - The size of the decompressed data.
+
+### Example
+
+```lua
+local text = "Hello, world! Hello, world!"
+local compressed = lz4compress(text)
+print(lz4decompress(compressed, #text)) --> "Hello, world! Hello, world!"
 ```
