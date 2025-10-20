@@ -1,7 +1,7 @@
 > **Warning**
 > This is still in works, don't bother with it for now.
 
-# Libre - Unified Naming Convention
+# Libre Unified Naming Convention
 LibreUNC, is an continuation of the older variation of the organization between executor developers to provide a unified scripting API for our scripters.
 
 ## Why Continue this?
