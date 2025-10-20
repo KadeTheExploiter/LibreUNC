@@ -1,6 +1,6 @@
-# Reflexion
+# Instances
 
-The **Reflexion** functions are used to interact with game objects and their properties.
+The **Instances** functions are used to interact with game objects and their properties.
 
 ---
 
