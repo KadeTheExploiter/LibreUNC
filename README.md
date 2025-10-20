@@ -14,6 +14,6 @@ I understand the fact that there are going to people who try to fake the test, b
     - `Actor` Library `getscriptfromthread`, `getactors`
     - `Input` Library
     - More functions related to Reflexion like `isnetworkowner`, `isclientobj` and other.
-    - Miscellacious, yet useful functions like `setfflag`, `setfpscap`, `load_video_frame`, `setsimulationradius`
+    - Miscellacious, yet useful functions like `setfflag`, `setfpscap`, `fix_video_frame`, `setsimulationradius`
 - Transparency and Open Sourced.
 - No Logging
