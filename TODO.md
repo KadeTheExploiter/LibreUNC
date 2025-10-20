@@ -1,4 +1,4 @@
 # Functions:
 - DirectoryWatcher Library (Merge with filesystem documentation)
 - Actor Library
-- Extras to Reflexion
+- Split Reflection functions and Instance functions 
